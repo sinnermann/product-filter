@@ -1,0 +1,14 @@
+.product {
+  max-width: 250px;
+  animation: slide-up 0.5s ease 1;
+  transform: all 0.3s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
